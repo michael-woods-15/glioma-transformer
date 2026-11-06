@@ -14,8 +14,8 @@ SEQUENCES = [
     "t2",
     "flair"
 ]
-ROOT = Path("../../data/UCSF-PDGM/PKG - UCSF-PDGM Version 5/UCSF-PDGM-v5/")
-METADATA_PATH = "../../data/UTSW-Glioma/UTSW_Glioma_Metadata.tsv"
+ROOT = Path("../data/UTSW-Glioma/PKG - UTSW-Glioma/UTSW-Glioma/")
+METADATA_PATH = "../data/UTSW-Glioma/UTSW_Glioma_Metadata.tsv"
 
 
 def find_sequence(patient_id, suffix):

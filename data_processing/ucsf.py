@@ -13,8 +13,8 @@ SEQUENCES = [
     "T2",
     "FLAIR"
 ]
-ROOT = Path("../../data/UCSF-PDGM/PKG - UCSF-PDGM Version 5/UCSF-PDGM-v5/")
-METADATA_PATH = "../../data/UCSF-PDGM/UCSF-PDGM-metadata_v5.csv"
+ROOT = Path("../data/UCSF-PDGM/PKG - UCSF-PDGM Version 5/UCSF-PDGM-v5/")
+METADATA_PATH = "../data/UCSF-PDGM/UCSF-PDGM-metadata_v5.csv"
 
 
 def folder_id(csv_id, width=4):

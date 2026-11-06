@@ -15,8 +15,8 @@ SEQUENCES = {
     "FLAIR": 4,
     "MASK": 5
 }
-ROOT = Path("../../data/EGD/egd_data/images/")
-METADATA_PATH = "../../data/EGD/egd_data/metadata/subjects.csv"
+ROOT = Path("../data/EGD/egd_data/images/")
+METADATA_PATH = "../data/EGD/egd_data/metadata/subjects.csv"
 SEX_MAP = {"male":"M", "female":"F"}
 
 
@@ -64,6 +64,7 @@ def load_egd_data():
                 t1c = row["T1GD"],
                 t2 = row["T2"],
                 flair = row["FLAIR"],
+                mask = row["MASK"],
                 age = row["age"],
                 sex = row["sex"],
                 label = row["IDH"]
